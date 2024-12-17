@@ -101,7 +101,7 @@ nav svg{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: #081b29;
+    background: url(/Portfolio/src/assets/codebg.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -128,7 +128,7 @@ nav svg{
 }
 
 .home-content h3 span {
-    color: #0ef;
+    color: #ff004f;
 }
 
 .home-content h1 {

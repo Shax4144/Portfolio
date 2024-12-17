@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="iconpf.png">
     <link rel="stylesheet" href="/Portfolio/src/stylesheet.css">
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script><link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio.</title>
 </head>
-<body class="scroll">
+<body>
     <header class="header">
         <nav class="nav">
             <input type="checkbox" id="sidebar-active">
@@ -23,7 +22,8 @@
                 <label for="sidebar-active" class="close-sidebar-button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
                     style="fill: rgba(255, 255, 255, 1);transform: msFilter">
-                    <path d="M9.172 16.242 12 13.414l2.828 2.828 1.414-1.414L13.414 12l2.828-2.828-1.414-1.414L12 10.586 9.172 7.758 7.758 9.172 10.586 12l-2.828 2.828z"></path><path d="M12 22c5.514 0 10-4.486 10-10S17.514 2 12 2 2 6.486 2 12s4.486 10 10 10zm0-18c4.411 0 8 3.589 8 8s-3.589 8-8 8-8-3.589-8-8 3.589-8 8-8z"></path></svg>
+                    <path d="M9.172 16.242 12 13.414l2.828 2.828 1.414-1.414L13.414 12l2.828-2.828-1.414-1.414L12 10.586 9.172 7.758 7.758 9.172 10.586 12l-2.828 2.828z"></path>
+                    <path d="M12 22c5.514 0 10-4.486 10-10S17.514 2 12 2 2 6.486 2 12s4.486 10 10 10zm0-18c4.411 0 8 3.589 8 8s-3.589 8-8 8-8-3.589-8-8 3.589-8 8-8z"></path></svg>
                 </label>
                 <a href="#" class="logo">Portfolio.</a>
                 <a href="#about" class="link">About</a>
@@ -46,13 +46,13 @@
                 <a href="https://x.com/cheesestaar" style="--i:9"><i class='bx bxl-twitter' ></i></a>
                 <a href="https://github.com/Shax4144?tab=projects" style="--i:10"><i class='bx bxl-github' ></i></a>
             </div>
-            <a href="./src/assets/RESUME.pdf" class="btn-box">More about me</a>
+            <a href="/Portfolio/src/assets/RESUME.pdf" class="btn-box">More about me</a>
         </div>
         <span class="home-imgHover"></span>
     </section>
 
     <section class="about" id="about">
-        <div class="about-text" class="block">
+        <div class="about-text">
             <h2>About <span>Me</span></h2>
             <h4>Aspiring to be a frontend Developer</h4>
             <p>I am passionate about combining creativity and technology to design engaging, 
@@ -65,13 +65,13 @@
                 functionality, creating digital products that are both impactful and 
                 enjoyable to use.</p>
 
-                <a href="./src/assets/RESUME.pdf" class="btn-box">More about me</a>
+                <a href="/Portfolio/src/assets/RESUME.pdf" class="btn-box">More about me</a>
         </div>
     </section>
 
-    <h1 class="sub-title" class="block">My Skills</h1>
+    <h1 class="sub-title">My Skills</h1>
     <section>
-        <div class="container1" id="skills" class="block">
+        <div class="container1" id="skills">
             <h1 class="heading1">Technical skills</h1>
             <div class="technical-bars">
 
@@ -124,7 +124,7 @@
         </div>
 
 
-        <div class="container1" class="block">
+        <div class="container1">
             <h1 class="heading1">Other Skills</h1>
             <div class="radial-bars">
 
@@ -176,10 +176,10 @@
             <div class="main-text" id="project">
                 <h2 class="block">Recent <span>Projects</span></h2>
 
-                <div class="portfolio-content" class="block">
+                <div class="portfolio-content">
                     
                     <div class="row row1">
-                        <img src="./src/assets/solarsystemAPP.jpg" alt="">
+                        <img src="/Portfolio/src/assets/solarsystemAPP.jpg" alt="">
                         <div class="layer">
                             <h5>Solar System Explorer App</h5>
                             <p>An app that has details about the solar system</p>
@@ -189,7 +189,7 @@
                     </div>
 
                     <div class="row">
-                        <img src="./src/assets/homepageWEBside.png" alt="">
+                        <img src="/Portfolio/src/assets/homepageWEBside.png" alt="">
                         <div class="layer">
                             <h5>Wiggies Ice Cream Website</h5>
                             <p>A website that advertise their products</p>
@@ -199,7 +199,7 @@
                     </div>
 
                     <div class="row">
-                        <img src="./src/assets/mainPOS.png" alt="">
+                        <img src="/Portfolio/src/assets/mainPOS.png" alt="">
                         <div class="layer">
                             <h5>Wiggies Ice Cream POS </h5>
                             <p>A system that helps the vendor to automatically keep track their sales and stocks</p>
@@ -209,7 +209,7 @@
                     </div>
 
                     <div class="row">
-                        <img src="./src/assets/mainElecPOS.png" alt="">
+                        <img src="/Portfolio/src/assets/mainElecPOS.png" alt="">
                         <div class="layer">
                             <h5>Electronics Shop POS</h5>
                             <p>A system that helps the vendor to automatically keep track their sales and stocks</p>
@@ -224,7 +224,7 @@
     </section>
 
     <section class="contact" id="contact">
-        <div class="contact-text" class="block">
+        <div class="contact-text">
             <h2>Contact <span>Me</span></h2>
             <h4>Let's work together</h4>
             <p>Let's work together to create something amazing! Whether you have a project idea, 
@@ -243,7 +243,7 @@
                 </div>
         </div>
 
-        <div class="contact-form" class="block">
+        <div class="contact-form">
             <form action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="44329dc8-267c-45f5-8a7c-edf0c14a6431">
                 <input type="text" placeholder="Enter Your Name" required>
